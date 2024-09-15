@@ -3,8 +3,10 @@ window.Telegram.WebApp.expand();
 
 console.log(window.Telegram.WebApp);
 
-document.writeln(
+document.writeln(JSON.stringify(window.Telegram.WebApp.user, null, "<br />"));
+
+/* document.writeln(
 	JSON.stringify(window.Telegram.WebApp, null, "<br />")
-);
+); */
 
 
